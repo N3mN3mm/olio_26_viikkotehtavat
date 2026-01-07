@@ -39,3 +39,17 @@
 
 # debug information files
 *.dwo
+
+# Kaikki build-hakemistot missa tahansa
+build/
+**/build/
+**/BUILD/
+**/BUILD-*/
+
+#Qt Creatur -hakemistot kaikkialla
+.qtcreator/
+**/.qtcreator/
+
+# Gt Creator user files
+*.user
+*.user.*
